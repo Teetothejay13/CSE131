@@ -20,7 +20,6 @@ def main():
     offset = computeOffset(month, year)
     monthDays = daysInMonth(month, year)
     # and finally, we display the calendar
-    print(offset, monthDays)
     display(monthDays, offset)
 
 # next is a function to get the year from the user
