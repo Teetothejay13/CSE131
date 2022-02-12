@@ -3,13 +3,16 @@
 # 2. Assignment Name:
 #      Lab 05 : Sudoku Draft
 # 3. Assignment Description:
-#      This assignment is meant to be a draft of the sudoku program. For the draft, I
-#      will only display the board and save changes, I will not check the validity of
-#      the move.
+#      This assignment is meant to be a sudoku program. It will open a sudoku board from a json file and display it,
+#      and then ask the user for their move. The program will then check the validity of the move, asking the user
+#      to try again if it is invalid in any way. If the column, row, and number are all valid, and the number can go
+#      in the chosen slot, then the program will be able to make the change and save it to the board file.
 # 4. What was the hardest part? Be as specific as possible.
-#      
+#      The hardest part was arguably the checkValidMove() function. There were so many nested if/else statements to
+#      manage, and when I wasn't careful, I often got them confused with each other. In the end, I separated them with
+#      some blank space, then deleted the blank space when I was done with them.
 # 5. How long did it take for you to complete the assignment?
-#      
+#      Including the time spent on the rough draft, I spent about 9 hours total on this assignment.
 
 # We'll need this library for the board files
 import json
